@@ -5,11 +5,61 @@
     font-weight: 400;
     font-style: normal;
 }
-.navbar{
-    display: flex;
+.brand-name{
+    font-weight: 700;
+    font-size: 3rem;
 }
-nav>ul{
+.hader{
+    
+    background-color:rgb(255,144,14,0.1);
+    
+}
+.navbar{
+    padding: 40px 130px 0 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.list-item{
     list-style: none;
     display: flex;
+    gap: 20px;
+
     
+}
+.anchor{
+    text-decoration: none;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* banner */
+.banner-container{
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-image{
+    width: 100%;
+}
+
+.primary-btn{
+    color: white;
+    background-color: #FF900E;
+    border-radius: 8PX;
+    padding: 20px 25px;
+    border: none;
+    font-size: 1.25rem;
 }
