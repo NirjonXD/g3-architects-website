@@ -50,16 +50,39 @@
 .banner{
     max-width: 1440px;
     margin: 0 auto;
+    justify-content: center;
 }
 .banner-image{
     width: 100%;
+    max-width: 1440px;
+    justify-content: center;
+
+    
+}
+.banner-description{
+    color: #727272;
+    font-size: 16px;
 }
 
 .primary-btn{
+    cursor: pointer;
     color: white;
     background-color: #FF900E;
     border-radius: 8PX;
     padding: 20px 25px;
     border: none;
     font-size: 1.25rem;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .brand-name{
+        text-align:center ;
+    }
+    .navbar{
+        flex-direction: column;
+        max-width: 100%;
+    }
 }
