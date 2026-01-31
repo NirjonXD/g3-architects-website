@@ -150,8 +150,20 @@ main>section {
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 10px;
+    color: #727272;
 }
 
+/* footer */
+.footer{
+    margin: 130px 240px 216px 170px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 24px 125px 25px 195px;
+}
+.footer-description{
+    color: #424242;
+    font-size: 20px;
+}
 
 
 @media screen and (max-width:576px) {
@@ -172,6 +184,9 @@ main>section {
     .features{
         margin-left: 20px;
     }
+    .fact{
+        margin: 10px 0 5px 10px;
+    }
     .fact-container{
         grid-template-columns: 1fr;
         justify-items: center;
@@ -180,6 +195,12 @@ main>section {
     }
 
     .fact-description{
-        max-width: 100%;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .footer{
+        margin:10px 5px;
+        padding: 10px 5px 7px 4px;
     }
 }
