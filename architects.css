@@ -174,13 +174,12 @@ main>section {
     }
     .fact-container{
         grid-template-columns: 1fr;
+        justify-items: center;
+         gap: 24px;
 
     }
-                .facts-container {
-                    justify-items: center;
-                    gap: 24px;
-                }
-                                .fact-description{
-                                    max-width: 100%;
-                                }
+
+    .fact-description{
+        max-width: 100%;
+    }
 }
