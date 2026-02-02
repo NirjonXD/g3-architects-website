@@ -30,6 +30,33 @@
 
     
 }
+.nav-list{
+    display: none;
+}
+/* only for mobile */
+.menu-btn {
+    background: #FF900E;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#menu {
+    list-style: none;
+    background: white;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+#menu li {
+    margin-bottom: 10px;
+}
 .anchor{
     display: flex;
     text-decoration: none;
@@ -112,6 +139,47 @@ main>section {
 .feature-description{
     color: #727272;
 }
+/* features  */
+/* .features {
+    gap: 140px;
+    display: flex;
+}
+
+#feature-section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-card {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card .feature-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.featured-architect img {
+    width: 100%;
+} */
 
 /* Some-fact */
 .fact-container {
@@ -187,13 +255,29 @@ main>section {
 }
 
 @media screen and (max-width:576px) {
+    .list-item{
+        display: none;
+    }
+    .nav-list{
+        display: block;
+    }
     .brand-name{
         text-align:center ;
     }
     .navbar{
-        flex-direction: column;
+        
         max-width: 100%;
     }
+        .navbar {
+            flex-direction: row !important;
+            padding: 20px;
+            justify-content: space-between;
+        }
+    
+        .brand-name {
+            font-size: 1.5rem;
+            
+        }
     .team-container{
         flex-direction: column;
     }
